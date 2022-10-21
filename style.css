@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+
+body{
+    background-attachment: fixed;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    line-height: 1.7;
+    color: rgb(12, 12, 12);
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 120%;
+    background:rgba(255,255,255,.7)
+}
+
+img{
+    max-width: 100%;
+}
+
+.bg-bigt{
+    background-image: url(images/tokeidai_n.jpg);
+    background-size: cover;
+}
+
+.wrapper{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* ここから　上へ戻るのアイコン用 */
+.pagetop {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: #fff;
+    border: solid 2px #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.pagetop__arrow {
+    height: 10px;
+    width: 10px;
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+    transform: translateY(20%) rotate(-45deg);
+}
+/* ここまで　上へ戻るのアイコン用 */
+
+.page-header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 400px;
+}
+
+.main-nav{
+    display: flex;
+    font-size: 120%;
+    list-style: none;
+    font-weight: bolder;
+}
+
+.main-nav li{
+    margin: 20px;
+}
+
+.top-box{
+    height: 750px;
+}
+
+.page-title{
+    font-size: 500%;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
+    background:rgba(255,255,255,.7)
+
+}
+
+.setumei{
+    font-size: 120%;
+    font:#222;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 200px;
+    background:rgba(255,255,255,.7)
+
+}
+
+h1{
+    margin: 10px;
+    border-bottom: 5px ridge #aaa;
+}
+.zeniki{
+    margin: 20px 0px 0px 20px;
+}
+
+.wrap{
+    padding-bottom: 20px;
+    width: 80%;
+    display: flex;
+    background:rgba(255,255,255,.7)
+}
+
+.jingi{
+    max-width: 40%;
+    margin: 0 20px;    
+    border: 7px outset rgb(185, 107, 42);
+}
+
+.sushi{
+    max-width: 40%;
+    margin: 0 20px;    
+    border: 7px inset rgb(185, 107, 42);
+}
+
+/* -----全域　ここまで----- */
+.bg-big{
+    background-image: url(images/tokeidai_n.jpg);
+    background-size: cover;
+    background-color: rgb(255, 227, 220);
+    background-blend-mode: overlay;
+}
+
+.touchi{
+    margin: 20px 0px 0px 20px;
+}
+
+.twrap{
+    margin: 0px 0px 30px 0px;
+    width: 80%;
+    display: flex;    
+}
+
+.name{
+    font-weight: bold;    
+}
+
+.misora{
+    max-width: 40%;
+    margin: 0 20px;    
+    border: 7px outset rgb(185, 107, 42);
+}
+
+.karry{
+    max-width: 40%;
+    margin: 0 20px;    
+    border: 7px outset rgb(185, 107, 42);
+}
+
+.shiora{
+    max-width: 40%;
+    margin: 0 20px;    
+    border: 7px inset rgb(185, 107, 42);
+}
+
+.rappi{
+    max-width: 40%;
+    margin: 0 20px;    
+    border: 7px inset rgb(185, 107, 42);
+}
+
+.syoura{
+    max-width: 40%;
+    margin: 0 20px;    
+    border: 7px outset rgb(185, 107, 42);
+}
+
+.shinko{
+    max-width: 40%;
+    margin: 0 20px;    
+    border: 7px outset rgb(185, 107, 42);
+}
+
+.rutao{
+    max-width: 40%;
+    margin: 0 20px;    
+    border: 7px inset rgb(185, 107, 42);
+}
+
+.youtube{
+    border-top: 2px ridge #aaa;
+    padding: 20px;
+}
+
+/* -----ご当地　ここまで----- */
+
+form{
+    font-weight: bold;
+    padding: 20px;
+}
+
+.toi{
+    margin: 10px 0px;
+}
+
+input[type="text"],input[type="email"],
+textarea{
+    border: #777 groove 2px;
+    min-width: 250px;
+    min-height: 30px;
+    background:rgba(200,200,200,.5)
+}
+
+#comment{
+    min-width: 500px;
+    min-height: 100px;
+}
+
+input[type="submit"],input[type="reset"],
+button{
+    font-weight: bold;
+    border: #777 groove 2px;
+    width: 100px;
+    height: 40px;
+    background:rgb(245, 255, 255);
+}
+
+.button{
+    width: 500px;
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+}

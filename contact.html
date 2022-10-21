@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>お問い合わせ</title>
+        <meta name="description" content="北海道の全域・札幌・函館・旭川・小樽のグルメをご紹介します">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="bg-big">
+        <div class="wrapper">
+        <header class="page-header">
+        <a href="index.html"><image class="logo" src="images/logo.png" alt="北海道のグルメ"></a>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="index.html#zen">全域</a></li>
+                    <li><a href="gotouchi.html">ご当地</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>    
+        </header>
+
+        <h1>◆ お問い合わせフォーム</h1>
+<form>
+    <div class="toi">
+        <label for="name">
+    お名前：
+    <input type="text" placeholder="フルネーム" id="name"></label>
+</div>
+
+<div class="toi">
+    性　別：
+    <label for="men"><input type="radio" name="gender" value="男" id="men" checked>男</label>
+    <label for="women"><input type="radio" name="gender" value="女" id="women">女</label>
+    <label for="none"><input type="radio" name="gender" id="etc">その他</label>
+</label>
+</div>
+
+<div class="toi">
+    <label for="add">
+    メールアドレス：
+    <input type="email" placeholder="アドレスを入力" id="add"></label>
+</div>
+
+<div class="toi">
+    お住まい：
+    <select id="live">
+        <option value="選択">選んで下さい</option>
+        <option value="北海道">北海道</option>
+        <option value="東北">東北</option>
+        <option value="関東">関東</option>
+        <option value="中部">中部</option>
+        <option value="近畿">近畿</option>
+        <option value="中国">中国</option>
+        <option value="四国">四国</option>
+        <option value="九州">九州</option>
+        <option value="海外">海外</option>
+    </select>
+</div>
+
+<div class="toi">
+    <label for="comment">
+        問い合わせ内容：
+        <textarea placeholder="入力して下さい" id="comment"></textarea>
+    </label>
+</div>
+
+<div class="button">
+    <input type="submit" value="送信する">
+    <input type="reset" value="リセット">
+</div>
+
+</form>
+
+        <a class="pagetop" href="#"><div class="pagetop__arrow"></div></a>    
+    </body>
+
+</html>
